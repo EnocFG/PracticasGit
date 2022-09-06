@@ -1,0 +1,21 @@
+Notas de investigación: Enoc Figueroa
+
+Django(creado entre 2003-2005)
+Es un framework web, su documentación se encuentra disponible en https://docs.djangoproject.com/en/1.10/.
+Se ha usado para construir wikis, manejadores de contenido, sitios de news y redes sociales.
+
+Devuelve contenido en muchos formatos como:
+-xml
+-html
+-rss
+-json
+
+motores de: base de datos, plantillas, etc.
+
+Proporciona una manera segura de cuentas de usuario, a traves de las cookies, o en hashes. 
+
+Cada porcion de la aqrquitectura de la aplicacion es independiente, lo que permite que la aplicación pueda crecer a futuro.
+
+Django usa principios como: "No te repitas", quiere decir esto que no deberia existir duplicaciones innecesarias en el codigo
+a traves de aplicaciones que sean creadas bajo el patrón Modelo Vista Controlador.
+
